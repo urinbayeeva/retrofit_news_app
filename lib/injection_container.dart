@@ -9,6 +9,8 @@ import 'package:retrofit_news_app/features/daily_news/presentation/bloc/article/
 final sl = GetIt.instance;
 
 Future<void> initiliazDependencies() async {
+
+  //Dio
   sl.registerSingleton<Dio>(Dio());
 
   //Api Service
